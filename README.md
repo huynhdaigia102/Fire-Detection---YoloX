@@ -80,10 +80,7 @@ S3 storage: https://drive.google.com/drive/folders/17bx88f3txRUA2zTNb2CRRB7t5LG5
 | ------------------------------- | :--------------: | :----------------------------: | :--------------------------:  | :--------------------------: | :-------------------: | :----------------------------: |
 | s_coco.pth           |      (1)       |         s_coco.py         |                |           |                     |                              |
 | tiny_coco.pth           |      (1)       |         tiny_coco.py         |                        |      |                     |                              |
-| nano_coco.pth           |      (1)       |         nano_coco.py         |                      |        |                     |                              |
-| nano_220407.pth           |      (1)       |         nano_220316.py         |                       |       |                     |                              |
-| nano_20220627.pth               |      (1)       |         nano_220316.py         |                  |            |                     |                              |
-| nano_20221102.pth               |      (2)       |         nano_220316.py         |    480x288        | 0.46 |          2.5ms ms;</br>400 FPS          |               22.83 ms;</br>43.8 FPS  
+| nano_coco.pth           |      (1)       |         nano_coco.py         |                      |        |                     |                              | 
 
 ### CXView
 | Backbone                        |    Train / Eval Dataset    |             Exps         |         Input Shape                     | mAP</br>@[IoU=0.50:0.95] | GTX1650  | Jetson Nano |
