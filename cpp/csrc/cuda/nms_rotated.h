@@ -1,0 +1,12 @@
+#pragma once
+
+namespace rapid {
+namespace cuda {
+
+int nms_rotated(int batch_size,
+    const void *const *inputs, void *const *outputs,
+    size_t count, int detections_per_im, float nms_thresh,
+    void *workspace, size_t workspace_size, cudaStream_t stream);
+
+}
+}
